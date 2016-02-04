@@ -75,8 +75,6 @@ struct cpufreq_suspend_t {
 //elementalx
 static unsigned long arg_cpu_oc = 3033600;
 
-/* Max frequency to add to the frequency_table */
-static unsigned long arg_cpu_max_freq = 3033600;
 
 static int __init cpufreq_read_cpu_oc(char *cpu_oc)
 {
